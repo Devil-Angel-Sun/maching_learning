@@ -87,7 +87,7 @@ accurary_score_train = model.accurary(y_train, y_train_pred)
 y_test_pred = model.predict(X_test, params)
 accurary_score_test = model.accurary(y_test, y_test_pred)
 
-# 绘制决策便捷
+# 绘制决策边界
 import matplotlib.pyplot as plt
 def plot_logistic(X_train, y_train, params):
     n = X_train.shape[0]
